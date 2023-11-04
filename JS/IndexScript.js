@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const fileListContainer = document.getElementById('file-list');
 
     // List of file names (you can fetch this dynamically or from a server)
-    const fileNames = ['BreadcrumbTable.html', 'FormatCamera.html', 'mouseEvents.html'];
+    const fileNames = ['BreadcrumbTable.html', 'formatCamera.html', 'mouseEvents.html'];
 
     fileNames.forEach(function (fileName) {
         const link = document.createElement('a');
