@@ -1,0 +1,146 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+nav {
+  z-index: 10;
+  position: fixed;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(16, 5, 120, 1);
+  color: aliceblue;
+  justify-content: space-between;
+
+}
+
+.header-logo {
+  display: inline-block;
+}
+
+.header-links {
+  text-align: end;
+
+}
+
+.top-spacing {
+  margin-top: 4rem;
+}
+
+.move-left {
+  margin-right: 4rem;
+}
+
+.header-links li {
+  background: rgb(16, 5, 120, 1);
+  margin-top: 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.header-links li ul {
+  display: none;
+  position: absolute;
+}
+
+.header-links li ul li {
+  display: flex;
+}
+
+main {
+  display: contents;
+  width: 1040px;
+}
+
+main h1 {
+  font-size: 1rem;
+}
+
+
+.container {
+  display: flex;
+}
+
+#tag {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17rem;
+  margin-left: 3rem;
+  align-content: center;
+  background: linear-gradient(rgba(222, 222, 255, .60), rgba(222, 222, 255, 1));
+  width: 19rem;
+  height: 13rem;
+  border-radius: 40px;
+}
+
+#tag h1 {
+  margin: auto;
+}
+
+#tag button {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+  border: 2px solid navy;
+  border-radius: 40px;
+  width: 14rem;
+  margin: auto;
+  box-shadow: -10px 21px 2px rgb(0 0 0 / 20%), 0px -2px 2px rgb(255 255 255 / 50%) inset, 0 2px 2px rgb(255 255 255 / 80%) inset;
+  background: linear-gradient(rgb(39, 39, 135), rgb(16, 5, 120, 1));
+  text-shadow: 0 -2px navy;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+#tag button:hover {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: linear-gradient(rgba(0, 0, 144, 1), rgb(0, 0, 100, 1));
+  border-color: (0, 0, 120, 1);
+}
+
+#tag button:active {
+  box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: rgba(0, 0, 65, 1);
+}
+
+
+.center-panel {
+  width: 1040px;
+  display: inline-block;
+  height: 40rem;
+}
+
+.left-panel {
+  background-color: transparent;
+}
+
+.right-panel {
+  background-color: rgba(222, 222, 255, .01);
+}
+
+.floatingbox {
+  display: inline-block;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.wallpaper {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 40rem;
+  z-index: -1;
+  /* image-orientation: unset; */
+  margin-top: 2.4rem;
+  background-image: url(../images/sunset.jpg);
+}

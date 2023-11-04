@@ -1,0 +1,132 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+nav {
+  z-index: 10;
+  position: fixed;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  background-color: navy;
+  color: aliceblue;
+  justify-content: space-between;
+
+}
+
+.header-logo {
+  src: url("../HTML/dashboard.html");
+  width: auto;
+  display: inline-block;
+}
+
+.header-links {
+  text-align: end;
+
+}
+
+.top-spacing {
+  margin-top: 4rem;
+}
+
+.move-left {
+  margin-right: 4rem;
+}
+
+.header-links li {
+  background: navy;
+  margin-top: 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.header-links li ul {
+  display: none;
+  position: absolute;
+}
+
+.header-links li ul li {
+  display: flex;
+}
+
+main {
+  display: contents;
+  width: 1040px;
+}
+
+main h1 {
+  font-size: 1rem;
+}
+
+
+.container {
+  display: flex;
+}
+
+#tag {
+  display: flex;
+  /* margin-top: 11rem; */
+  /* margin-left: 11rem; */
+  /* align-content: center; */
+  background: white;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  width: 20rem;
+  height: 15rem;
+  border-radius: 40px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#tag h1 {
+  margin: auto;
+}
+
+#tag button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 0rem 5rem;
+    background: rgb(0, 0, 255);
+    text-shadow: 0 -2px navy;
+    color: aliceblue;
+    font-size: large;
+}
+
+#tag button:hover {
+  background: rgb(0, 0, 220);
+}
+
+#tag button:active {
+  background: rgb(0, 0, 200);
+}
+
+.form {
+  display: flex;
+    gap: 14px;
+    flex-direction: column;
+}
+.center-panel {
+  width: 1040px;
+    display: inline-block;
+    height: 40rem;
+}
+.center-panel-login {
+  text-align: center;
+  width: 1040px;
+    display: flex;
+    height: 40rem;
+    align-items: center;
+}
+
+.left-panel {
+  background-color: rgba(222, 222, 255, .1);
+}
+.right-panel {
+  background-color: rgba(222, 222, 255, .01);
+}

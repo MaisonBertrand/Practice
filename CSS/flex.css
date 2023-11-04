@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    border: 0;
+  }
+  
+  .flex h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .flex .container {
+    height: 300px;
+    width: 600px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .flex .left,
+  .flex .center,
+  .flex .right {
+    min-height: 75px;
+    min-width: 200px;
+    margin: 2px;
+    background-color: dodgerblue;
+    border: 2px solid lightgrey;
+  }
+  
+  .flex #flexstart {
+    align-content: flex-start;
+  }
+  
+  .flex #flexend {
+  align-content: flex-end;
+  }
+  
+  .flex #center {
+  align-content: center;
+  }
+  
+  .flex #between {
+  align-content: space-between;
+  }
+  
+  .flex #around {
+  align-content: space-around;
+  }
+
+  
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 14px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  .container {
+    align-items: center;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    display: flex;
+    max-height: 600px;
+  }
+  
+  .box {
+    flex-grow: 1;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #row {
+   flex-direction: row;
+  }
+  
+  #row-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  #column {
+    flex-direction: column;
+  }
+  
+  #column-reverse {
+    flex-direction: column-reverse;
+  }
+  

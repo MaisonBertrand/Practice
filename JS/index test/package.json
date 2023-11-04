@@ -1,0 +1,22 @@
+{
+  "name": "index-test",
+  "version": "1.0.0",
+  "description": "anotherTest",
+  "main": "./",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "n"
+  },
+  "keywords": [
+    "n"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "author": "n",
+  "license": "UNLICENSED"
+}
