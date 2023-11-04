@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     fileNames.forEach(function (fileName) {
         const link = document.createElement('a');
-        link.href = `./html/${fileName}`; // Set the path to your HTML files
+        link.href = `./HTML/${fileName}`; // Set the path to your HTML files
 
         const cube = document.createElement('div');
         cube.classList.add('cube');
