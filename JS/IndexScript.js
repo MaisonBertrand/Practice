@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const fileListContainer = document.getElementById('file-list');
 
     // List of file names (you can fetch this dynamically or from a server)
-    const fileNames = ['file1.html', 'file2.html', 'file3.html'];
+    const fileNames = ['BreadcrumbTable.html', 'FormatCamera.html', 'mouseEvents.html'];
 
     fileNames.forEach(function (fileName) {
         const link = document.createElement('a');
-        link.href = `html_files/${fileName}`; // Set the path to your HTML files
+        link.href = `./html/${fileName}`; // Set the path to your HTML files
 
         const cube = document.createElement('div');
         cube.classList.add('cube');
